@@ -9,6 +9,7 @@ def password():
    time.sleep(0.5)
    print(".", end="", flush=True)
   print()
+  print()
   l=len(s)
   if  l<8:
    print(Fore.RED + "Password should be at least 8 characters long ❌")
