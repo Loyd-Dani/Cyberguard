@@ -22,12 +22,9 @@ def p1():
  prog.say("Choose your desired security feature by entering its corresponding number from the list below")
  prog.runAndWait()
  print("1. Password Strength Check")
- print("2.For Email Phishing Check")
  k=input()
  if k=='1':
   password()
- if k=='2':
-  start()
 if __name__ == "__main__":
   p1()
   print(Style.RESET_ALL) 
