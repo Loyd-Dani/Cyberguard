@@ -12,6 +12,7 @@ def password():
   l=len(s)
   if  l<8:
    print(Fore.RED + "Password should be at least 8 characters long ❌")
+   print(Style.RESET_ALL) 
   else:
    break
  upper = False
